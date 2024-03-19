@@ -1,4 +1,5 @@
 # Cryptography_Algorithms
+
 Pure python3 implementation of cryptograhic alogrithms
 
 - [x] DES
@@ -6,4 +7,5 @@ Pure python3 implementation of cryptograhic alogrithms
 - [x] RSA
 - [x] MD5
 - [x] MITM_DH
-- [ ] SHA-512
+- [x] SHA-512
+- [x] DSS
