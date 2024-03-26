@@ -20,8 +20,9 @@ def start_server():
         data = data.decode()
         M, r, s, p, q, g, y = eval(data)
         print(f"Received Msg: {M}\n")
-        M += b"_modified"
-        print(f"Modified Msg: {M}\n")
+        if M == b"ashwanth":
+            M += b"_modified"
+        print(f"Msg: {M}\n")
         dss_verify(M, r, s, p, q, g, y)
         print("\n")
         client.sendall("Closing connection".encode())
