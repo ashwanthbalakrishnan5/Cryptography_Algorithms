@@ -32,6 +32,10 @@ This repository contains Pure Python3 implementations of various cryptographic a
     - A standard for digital signatures based on the use of public-key cryptography.
     - Implementation: `dss.py`
 
+8. **SSL**
+    - A Simple Client Server implementation of SSL.
+    - Implementation: `server.py`
+
 ## Usage
 
 1. Clone this repository:
@@ -48,8 +52,8 @@ This repository contains Pure Python3 implementations of various cryptographic a
 
 ## Contributing
 
-Feel free to contribute by submitting pull requests or reporting issues. Let's make this collection of cryptographic algorithms even better!
+Contributions are welcome! If you have any improvements or new algorithms to add, feel free to submit a pull request.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
